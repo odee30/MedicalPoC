@@ -28,7 +28,7 @@ namespace CAA.MedicalPoC.PortalApp
             {
                 //MetadataAddress = "https://login.microsoftonline.com/c4edd5ba-10c3-4fe3-946a-7c9c446ab8c8/federationmetadata/2007-06/federationmetadata.xml",
                 MetadataAddress = "https://sts.caalab.co.uk/federationmetadata/2007-06/federationmetadata.xml",
-                Wtrealm = "http://localhost:51571/",
+                Wtrealm = "http://portal.caalab.co.uk/",
             });
 
             app.SetDefaultSignInAsAuthenticationType(CookieAuthenticationDefaults.AuthenticationType);
